@@ -1,6 +1,7 @@
 package com.company;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class Main {
 
@@ -28,7 +29,7 @@ public class Main {
 
 	System.out.println("Сумма моего года, месяца и дня рождения: " + sum);
 	System.out.println("Месяц моего рождения больше даты рождения: " + monthBiggerDay);
-	System.out.println("Массив с моим именем: " + name);
+	System.out.println("Массив с моим именем: " + Arrays.toString(name));
 	System.out.println("Мне " + sum2);
     }
 }
