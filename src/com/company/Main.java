@@ -10,8 +10,15 @@ public class Main {
 	int monthOFBirth = 5;
 	int dayOFBirth = 12;
 	int sum = yearOFBirth + monthOFBirth + dayOFBirth;
+		System.out.println("Сумма моего года, месяца и дня рождения: " + sum);
 
 	boolean monthBiggerDay = monthOFBirth > dayOFBirth;
+		System.out.println("Месяц моего рождения больше даты рождения: " + monthBiggerDay);
+
+		double myAge = 22.0;
+		double partYear = 5.0/12.0;
+		double sum2 = myAge + partYear;
+		System.out.println("Мне " + sum2);
 
 	char[] name = new char[7];
 	name[0] = 'А';
@@ -21,15 +28,9 @@ public class Main {
 	name[4] = 'с';
 	name[5] = 'е';
 	name[6] = 'й';
-
-	double myAge = 22.0;
-	double partYear = 5.0/12.0;
-	double sum2 = myAge + partYear;
-
-
-	System.out.println("Сумма моего года, месяца и дня рождения: " + sum);
-	System.out.println("Месяц моего рождения больше даты рождения: " + monthBiggerDay);
-	System.out.println("Массив с моим именем: " + Arrays.toString(name));
-	System.out.println("Мне " + sum2);
+	System.out.print("Массив с моим имнем: ");
+	for(int j = 0; j <= 7; j++){
+		System.out.print(name[j]);
+	}
     }
 }
