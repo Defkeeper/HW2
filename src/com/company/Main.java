@@ -29,7 +29,7 @@ public class Main {
 	name[5] = 'е';
 	name[6] = 'й';
 	System.out.print("Массив с моим имнем: ");
-	for(int j = 0; j <= 7; j++){
+	for(int j = 0; j < 7; j++){
 		System.out.print(name[j]);
 	}
     }
